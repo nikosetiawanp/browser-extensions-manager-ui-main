@@ -1,24 +1,26 @@
-# Frontend Mentor - Browser extensions manager UI
+# Frontend Mentor - Browser extensions manager UI solution
 
-![Design preview for the Browser extensions manager UI coding challenge](./preview.jpg)
+This is a solution to the [Browser extensions manager UI challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/browser-extension-manager-ui-yNZnOfsMAp). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Overview
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+### The challenge
 
-## The challenge
-
-Your challenge is to build out this browser extension manager UI and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-We provide the data for the extensions in a local `data.json` file. So you can use that to add the data dynamically if you choose.
-
-Your users should be able to: 
+Users should be able to:
 
 - Toggle extensions between active and inactive states
 - Filter active and inactive extensions
@@ -27,74 +29,92 @@ Your users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+### Screenshot
 
-## Where to find everything
+![](./screenshots/screenshot-light.jpg)
+![](./screenshots/screenshot-dark.jpg)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+### Links
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+- Solution URL: [https://github.com/nikosetiawanp/browser-extensions-manager-ui-maine](https://github.com/nikosetiawanp/browser-extensions-manager-ui-main)
+- Live Site URL: [https://nikosetiawanp.github.io/browser-extensions-manager-ui-main/](https://nikosetiawanp.github.io/browser-extensions-manager-ui-main/)
 
-If you would like the Figma design file to gain experience using professional tools and build more accurate projects faster, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+## My process
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+### Built with
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="html5">
+<g id="html5_2">
+<path id="Vector" d="M14.0214 90.0345L6 0.000488281H94.1867L86.1653 89.9859L50.0204 100" fill="#E44D26"/>
+<path id="Vector_2" d="M50.093 92.3445V7.39062H86.1407L79.2617 84.2015" fill="#F16529"/>
+<path id="Vector_3" d="M22.3831 18.4014H50.0933V29.4369H34.4881L35.509 40.7397H50.0933V51.7509H25.3972L22.3831 18.4014ZM25.8833 57.293H36.9674L37.7452 66.1165L50.0933 69.4223V80.9439L27.439 74.624" fill="#EBEBEB"/>
+<path id="Vector_4" d="M77.7058 18.4014H50.0442V29.4369H76.6849L77.7058 18.4014ZM75.6883 40.7397H50.0442V51.7752H63.6562L62.368 66.1165L50.0442 69.4223V80.8953L72.6499 74.624" fill="white"/>
+</g>
+</g>
+</svg>
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="css3">
+<g id="css3_2">
+<path id="polygon2989" d="M94.1749 0.000488281L86.142 89.99L50.0335 100L14.0245 90.0041L6 0.000488281H94.1749Z" fill="#264DE4"/>
+<path id="polygon2991" d="M79.2648 84.2598L86.1295 7.35962H50.0874V92.3489L79.2648 84.2598Z" fill="#2965F1"/>
+<path id="polygon2993" d="M24.3959 40.7407L25.3852 51.7792H50.0874V40.7407H24.3959Z" fill="#EBEBEB"/>
+<path id="polygon2995" d="M50.0875 18.3982H50.0493H22.408L23.4114 29.4369H50.0875V18.3982Z" fill="#EBEBEB"/>
+<path id="polygon2997" d="M50.0874 80.8935V69.4088L50.039 69.4217L37.7453 66.1021L36.9594 57.2983H30.9856H25.8784L27.4249 74.6305L50.0366 80.9077L50.0874 80.8935Z" fill="#EBEBEB"/>
+<path id="polygon3005" d="M63.6421 51.779L62.3608 66.0952L50.0493 69.4182V80.9024L72.679 74.6306L72.845 72.7657L75.439 43.7047L75.7083 40.7406L77.7011 18.3982H50.0493V29.4369H65.6038L64.5994 40.7406H50.0493V51.779H63.6421Z" fill="white"/>
+</g>
+</g>
+</svg>
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="js">
+<g id="js_2">
+<path id="Vector" d="M100 0.000488281H0V100H100V0.000488281Z" fill="#F7DF1E"/>
+<path id="Vector_2" d="M67.1745 78.1259C69.1888 81.4148 71.8094 83.8323 76.4444 83.8323C80.338 83.8323 82.8253 81.8862 82.8253 79.1973C82.8253 75.9751 80.2698 74.8339 75.9841 72.9592L73.6348 71.9513C66.8539 69.0624 62.3491 65.4434 62.3491 57.7926C62.3491 50.745 67.719 45.3799 76.111 45.3799C82.0856 45.3799 86.3809 47.4592 89.4761 52.9037L82.1586 57.6021C80.5475 54.7132 78.8094 53.5751 76.111 53.5751C73.3587 53.5751 71.6142 55.3212 71.6142 57.6021C71.6142 60.4212 73.3602 61.5624 77.392 63.3085L79.7412 64.3148C87.7253 67.7386 92.2333 71.2291 92.2333 79.0767C92.2333 87.537 85.5872 92.1719 76.6618 92.1719C67.9348 92.1719 62.2967 88.0132 59.538 82.5624L67.1745 78.1259ZM33.9793 78.9402C35.4555 81.5592 36.7983 83.7735 40.0269 83.7735C43.1142 83.7735 45.0618 82.5656 45.0618 77.8688V45.9164H54.4586V77.9958C54.4586 87.7259 48.7539 92.1545 40.4269 92.1545C32.9031 92.1545 28.546 88.2608 26.3301 83.5712L33.9793 78.9402Z" fill="black"/>
+</g>
+</g>
+</svg>
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+### What I learned
 
-## Building your project
+After using React JS and various UI library for a long time, I decided to give this challenge a go using vanilla CSS and JS.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+I thought it would be easy because I have some knowledge with frameworks. Well, I got humbled pretty quick. I struggled to do the css and simple javascript functionality, particularly targeting and manipulating DOM.I don't even have time to check if my HTML is semantic.
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+Here's what I learned :
+- It's good to do projects in vanilla JS and CSS so you won't forget the fundamentals. It will make you a better developer in the long run.
 
-## Deploying your project
+### Continued development
+❌ I rely too much on template-literal, and from what I learned, it's not good for security.
+``` 
+// TEMPLATE LITERAL
+const user = { name: 'Alice', age: 25 };
+container.innerHTML = `
+  <div class="user-card">
+    <h2>${user.name}</h2>
+    <p>Age: ${user.age}</p>
+  </div>
+`;
+```
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+✅  In the future, I wish to implement more DOM-based approach whenever possible.
+```
+const user = { name: 'Alice', age: 25 };
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+const card = document.createElement('div');
+card.className = 'user-card';
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+const name = document.createElement('h2');
+name.textContent = user.name;
 
-## Create a custom `README.md`
+const age = document.createElement('p');
+age.textContent = `Age: ${user.age}`;
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+card.append(name, age);
+container.innerHTML = '';
+container.appendChild(card);
+```
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+## Author
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of our [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+- Website - [https://github.com/nikosetiawanp](https://github.com/nikosetiawanp)
+- Frontend Mentor - [@nikosetiawanp](https://www.frontendmentor.io/profile/yourusername)

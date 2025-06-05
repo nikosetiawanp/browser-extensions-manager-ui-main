@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <!-- FULL SCREEN -->
+  <div class="full-screen">
+    <!-- CONTAINER -->
+    <div class="container">
+    <!-- TOP BAR -->
+     <div class="top-bar">
+      <img src="./assets/images/logo.svg" alt="logo" id="logo">
+      <button class="theme-toggle-button" id="theme-toggle-button">
+        <!-- <img src="./assets/images/icon-sun.svg" alt="icon-sun"> -->
+      </button>
+     </div>
+     <!-- EXTENSION LIST FILTER -->
+      <div class="filter-container">
+        <span class="title">Extensions List</span>
+        <div class="filter-button-container" id="filter-button-container">
+            <button class="filter-button inactive" id="filter-button-all">
+              All
+            </button>
+            <button class="filter-button inactive" id="filter-button-active">
+              Active
+            </button>
+            <button class="filter-button inactive" id="filter-button-inactive">
+              Inactive
+            </button>
+        </div>
+      </div>
+      <div class="extensions-container" id="extensions-container">
+        <!-- CARD -->
+        <div class="extension-card">
+          <div class="extension-card-info">
+            <img src="./assets/images/logo-json-wizard.svg" alt="logo-json-wizard">
+            <div class="extension-card-text-container">
+              <span class="extension-card-title">Speed Boost</span>
+              <p class="extension-card-paragraph">Optimizes browser resource usage to accelerate page loading.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+        Coded by <a href="#">Niko Setiawan P.</a>.
+      </div>
+    </div>
+  </div>
+  <div class="remove-modal-backdrop hidden" id="remove-modal-backdrop">
+    <div class="remove-modal">
+      <span class="remove-modal-title" id="remove-modal-title"></span>
+      <p>Do you really want to delete this extension? This action cannot be undone.</p>
+      <div class="remove-modal-buttons">
+        <button class="cancel" id="remove-cancel-button">Cancel</button>
+        <button class="confirm" id="remove-confirm-button">Confirm</button>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js">
+</script>
+</html>
